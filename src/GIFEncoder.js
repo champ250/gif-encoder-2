@@ -3,6 +3,7 @@ const EventEmitter = require('events')
 const LZWEncoder = require('./LZWEncoder.js')
 const NeuQuant = require('./TypedNeuQuant.js')
 const { OctreeQuant, Color } = require('./OctreeQuant')
+const Buffer = require('node:buffer')
 
 class ByteArray {
   constructor() {
